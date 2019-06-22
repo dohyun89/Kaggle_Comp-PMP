@@ -1,0 +1,13 @@
+Spatial info regarding each molecule
+Distance info
+
+Water:
+ID_1	H
+ID_2	0
+ID_3	H
+
+scalar coupling
+	-Chemical properties based on 3 dimensional individual atoms
+	-Measure of strength of bond
+	-Chemical potential
+	-Can we predict the scalar coupling?
