@@ -1,0 +1,13 @@
+Proposal:
+
+-Create an RNN with 20 fully connected layers, each hidden layer accepting a pair of atoms from a molecule.
+-Output layer would have 20 nodes (A total of 20 possible SC for a molecule).
+-L2 loss.
+
+
+Possible Blockages:
+
+-Number of input attributes are very less (~10).
+-20+ layers with less attributes will have vanishing gradient problem (possible solution would be to use residual connections).
+-Find out the meaning of the field "type" (Krishna to help here).
+-Represent the entire data in numerical terms.
